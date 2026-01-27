@@ -1,0 +1,461 @@
+{
+  "ADANIPORTS_1": {
+    "metadata": {
+      "filename": "ADANIPORTS",
+      "timeframe": 1,
+      "timestamp": "2026-01-27T15:44:29.662900",
+      "total_period_years": 2.9103353867214237,
+      "starting_capital": 616.77151,
+      "ending_capital": 1881.829038571435,
+      "total_return_pct": 205.10959213590053,
+      "cagr_pct": 46.71026188823082,
+      "max_drawdown_pct": -3.9234878088321157
+    },
+    "yearly_performance": [
+      {
+        "year": 2023,
+        "Start Equity": 616.77151,
+        "End Equity": 904.4700757142875,
+        "Total Return (%)": 46.64589090930732,
+        "Max Drawdown (%)": -3.9234878088321157,
+        "Trades": 1021.0,
+        "Win Rate (%)": 68.85406464250735,
+        "Avg Win": 0.9593470697012823,
+        "Avg Loss": -1.2116380952380945,
+        "Sharpe Ratio": 0.33420331596151864
+      },
+      {
+        "year": 2024,
+        "Start Equity": 904.4700757142875,
+        "End Equity": 1442.8428871428603,
+        "Total Return (%)": 59.52356256821469,
+        "Max Drawdown (%)": -1.9019541656055552,
+        "Trades": 1022.0,
+        "Win Rate (%)": 66.43835616438356,
+        "Avg Win": 1.8143358321060468,
+        "Avg Loss": -2.0220443690129195,
+        "Sharpe Ratio": 0.3574339169344348
+      },
+      {
+        "year": 2025,
+        "Start Equity": 1442.8428871428603,
+        "End Equity": 1881.829038571435,
+        "Total Return (%)": 30.425083378125933,
+        "Max Drawdown (%)": -0.8411660786592855,
+        "Trades": 1121.0,
+        "Win Rate (%)": 66.63693131132918,
+        "Avg Win": 1.4162096787148672,
+        "Avg Loss": -1.654872937356776,
+        "Sharpe Ratio": 0.36621433865800657
+      }
+    ]
+  },
+  "ADANIPORTS_3": {
+    "metadata": {
+      "filename": "ADANIPORTS",
+      "timeframe": 3,
+      "timestamp": "2026-01-27T15:46:28.650689",
+      "total_period_years": 2.9103353867214237,
+      "starting_capital": 598.7,
+      "ending_capital": 1721.3680392857113,
+      "total_return_pct": 187.5176280751146,
+      "cagr_pct": 43.74690245901203,
+      "max_drawdown_pct": -2.293769751903608
+    },
+    "yearly_performance": [
+      {
+        "year": 2023,
+        "Start Equity": 598.7,
+        "End Equity": 843.179725714286,
+        "Total Return (%)": 40.835096995872036,
+        "Max Drawdown (%)": -2.293769751903608,
+        "Trades": 316.0,
+        "Win Rate (%)": 70.56962025316456,
+        "Avg Win": 1.9634762780269097,
+        "Avg Loss": -2.0793062826420963,
+        "Sharpe Ratio": 0.5094053292251984
+      },
+      {
+        "year": 2024,
+        "Start Equity": 843.179725714286,
+        "End Equity": 1329.1719399999993,
+        "Total Return (%)": 57.638033679475974,
+        "Max Drawdown (%)": -2.0752124290937686,
+        "Trades": 326.0,
+        "Win Rate (%)": 70.85889570552148,
+        "Avg Win": 3.5552585281385305,
+        "Avg Loss": -3.52918427067671,
+        "Sharpe Ratio": 0.5527194990263848
+      },
+      {
+        "year": 2025,
+        "Start Equity": 1329.1719399999993,
+        "End Equity": 1721.3680392857113,
+        "Total Return (%)": 29.506799495459727,
+        "Max Drawdown (%)": -1.0661759616086435,
+        "Trades": 360.0,
+        "Win Rate (%)": 69.16666666666667,
+        "Avg Win": 2.8047560728628778,
+        "Avg Loss": -2.758451917631921,
+        "Sharpe Ratio": 0.5764030919839741
+      }
+    ]
+  },
+  "ADANIPORTS_5": {
+    "metadata": {
+      "filename": "ADANIPORTS",
+      "timeframe": 5,
+      "timestamp": "2026-01-27T16:01:16.669595",
+      "total_period_years": 2.9103353867214237,
+      "starting_capital": 604.75,
+      "ending_capital": 1684.2231864285684,
+      "total_return_pct": 178.49908002125977,
+      "cagr_pct": 42.181399496687355,
+      "max_drawdown_pct": -1.7179517353225107
+    },
+    "yearly_performance": [
+      {
+        "year": 2023,
+        "Start Equity": 604.75,
+        "End Equity": 899.6941964285711,
+        "Total Return (%)": 48.77126026102871,
+        "Max Drawdown (%)": -1.4082651339139085,
+        "Trades": 213.0,
+        "Win Rate (%)": 69.95305164319248,
+        "Avg Win": 2.9625222818791936,
+        "Avg Loss": -2.2886191183035702,
+        "Sharpe Ratio": 0.7328960445811982
+      },
+      {
+        "year": 2024,
+        "Start Equity": 899.6941964285711,
+        "End Equity": 1256.9132185714277,
+        "Total Return (%)": 39.7044933223838,
+        "Max Drawdown (%)": -1.7179517353225107,
+        "Trades": 220.0,
+        "Win Rate (%)": 66.81818181818183,
+        "Avg Win": 4.511233333333336,
+        "Avg Loss": -4.190853121330732,
+        "Sharpe Ratio": 0.5629066315638156
+      },
+      {
+        "year": 2025,
+        "Start Equity": 1256.9132185714277,
+        "End Equity": 1684.2231864285684,
+        "Total Return (%)": 33.99677571557479,
+        "Max Drawdown (%)": -1.2570854322146452,
+        "Trades": 213.0,
+        "Win Rate (%)": 69.01408450704226,
+        "Avg Win": 4.478511904761897,
+        "Avg Loss": -3.500473971861486,
+        "Sharpe Ratio": 0.6950576612141396
+      }
+    ]
+  },
+  "AXISBANK_1": {
+    "metadata": {
+      "filename": "AXISBANK",
+      "timeframe": 1,
+      "timestamp": "2026-01-27T15:55:20.936972",
+      "total_period_years": 2.9103353867214237,
+      "starting_capital": 810.08,
+      "ending_capital": 1314.3640732857175,
+      "total_return_pct": 62.25114473702813,
+      "cagr_pct": 18.09218286723371,
+      "max_drawdown_pct": -1.172585257204076
+    },
+    "yearly_performance": [
+      {
+        "year": 2023,
+        "Start Equity": 810.08,
+        "End Equity": 1031.1850000000024,
+        "Total Return (%)": 27.294217855026957,
+        "Max Drawdown (%)": -0.9176973795326964,
+        "Trades": 1270.0,
+        "Win Rate (%)": 69.76377952755905,
+        "Avg Win": 0.5641780225733674,
+        "Avg Loss": -0.7259289791666683,
+        "Sharpe Ratio": 0.4541966617468714
+      },
+      {
+        "year": 2024,
+        "Start Equity": 1031.1850000000024,
+        "End Equity": 1176.7332408571456,
+        "Total Return (%)": 14.114658461589608,
+        "Max Drawdown (%)": -1.0659864496043585,
+        "Trades": 1280.0,
+        "Win Rate (%)": 66.484375,
+        "Avg Win": 0.5611032902467699,
+        "Avg Loss": -0.773777760239764,
+        "Sharpe Ratio": 0.26656121362491025
+      },
+      {
+        "year": 2025,
+        "Start Equity": 1176.7332408571456,
+        "End Equity": 1314.3640732857175,
+        "Total Return (%)": 11.696009566987339,
+        "Max Drawdown (%)": -1.172585257204076,
+        "Trades": 1368.0,
+        "Win Rate (%)": 65.49707602339181,
+        "Avg Win": 0.582784698660714,
+        "Avg Loss": -0.8147124101089585,
+        "Sharpe Ratio": 0.23473599642289544
+      }
+    ]
+  },
+  "AXISBANK_3": {
+    "metadata": {
+      "filename": "AXISBANK",
+      "timeframe": 3,
+      "timestamp": "2026-01-27T15:57:10.733160",
+      "total_period_years": 2.9103353867214237,
+      "starting_capital": 876.5,
+      "ending_capital": 1834.0739150000027,
+      "total_return_pct": 109.24973359954393,
+      "cagr_pct": 28.878783974493437,
+      "max_drawdown_pct": -1.3905414283789617
+    },
+    "yearly_performance": [
+      {
+        "year": 2023,
+        "Start Equity": 876.5,
+        "End Equity": 1122.402560714286,
+        "Total Return (%)": 28.055055415206613,
+        "Max Drawdown (%)": -0.9160401187703903,
+        "Trades": 433.0,
+        "Win Rate (%)": 70.43879907621246,
+        "Avg Win": 1.5382872857142869,
+        "Avg Loss": -1.7443364174107163,
+        "Sharpe Ratio": 0.6063215139519351
+      },
+      {
+        "year": 2024,
+        "Start Equity": 1122.402560714286,
+        "End Equity": 1513.9829157142876,
+        "Total Return (%)": 34.88769258961809,
+        "Max Drawdown (%)": -1.3905414283789617,
+        "Trades": 406.0,
+        "Win Rate (%)": 69.45812807881774,
+        "Avg Win": 2.451098475177308,
+        "Avg Loss": -2.4163662500000007,
+        "Sharpe Ratio": 0.5944489941245182
+      },
+      {
+        "year": 2025,
+        "Start Equity": 1513.9829157142876,
+        "End Equity": 1834.0739150000027,
+        "Total Return (%)": 21.142312503222545,
+        "Max Drawdown (%)": -0.7691177534582653,
+        "Trades": 395.0,
+        "Win Rate (%)": 71.64556962025317,
+        "Avg Win": 1.8802935689045972,
+        "Avg Loss": -1.8931435778061219,
+        "Sharpe Ratio": 0.6425782221258406
+      }
+    ]
+  },
+  "AXISBANK_5": {
+    "metadata": {
+      "filename": "AXISBANK",
+      "timeframe": 5,
+      "timestamp": "2026-01-27T15:59:02.655619",
+      "total_period_years": 2.9103353867214237,
+      "starting_capital": 877.0,
+      "ending_capital": 1707.6702249999971,
+      "total_return_pct": 94.71724344355725,
+      "cagr_pct": 25.73037979343269,
+      "max_drawdown_pct": -1.63460410208584
+    },
+    "yearly_performance": [
+      {
+        "year": 2023,
+        "Start Equity": 877.0,
+        "End Equity": 1113.4081492857129,
+        "Total Return (%)": 26.95645943964799,
+        "Max Drawdown (%)": -1.2820053312988144,
+        "Trades": 235.0,
+        "Win Rate (%)": 74.8936170212766,
+        "Avg Win": 2.0409468181818124,
+        "Avg Loss": -2.0813303510895955,
+        "Sharpe Ratio": 0.8247179387601415
+      },
+      {
+        "year": 2024,
+        "Start Equity": 1113.4081492857129,
+        "End Equity": 1492.041225714282,
+        "Total Return (%)": 34.00667371363094,
+        "Max Drawdown (%)": -0.7871333082482369,
+        "Trades": 222.0,
+        "Win Rate (%)": 74.77477477477478,
+        "Avg Win": 3.211100361445781,
+        "Avg Loss": -2.757313992346959,
+        "Sharpe Ratio": 0.8172279365351344
+      },
+      {
+        "year": 2025,
+        "Start Equity": 1492.041225714282,
+        "End Equity": 1707.6702249999971,
+        "Total Return (%)": 14.451946472356179,
+        "Max Drawdown (%)": -1.63460410208584,
+        "Trades": 232.0,
+        "Win Rate (%)": 67.24137931034483,
+        "Avg Win": 2.5570701923076853,
+        "Avg Loss": -2.4114993515037613,
+        "Sharpe Ratio": 0.5725459125924873
+      }
+    ]
+  },
+  "INFY_5": {
+    "metadata": {
+      "filename": "INFY",
+      "timeframe": 5,
+      "timestamp": "2026-01-27T16:25:57.718154",
+      "total_period_years": 2.9103353867214237,
+      "starting_capital": 1533.6,
+      "ending_capital": 2251.3954699999995,
+      "total_return_pct": 46.80460811163274,
+      "cagr_pct": 14.10173776517385,
+      "max_drawdown_pct": -0.8595552917681893
+    },
+    "yearly_performance": [
+      {
+        "year": 2023,
+        "Start Equity": 1533.6,
+        "End Equity": 1692.1447100000003,
+        "Total Return (%)": 10.338074465310404,
+        "Max Drawdown (%)": -0.8595552917681893,
+        "Trades": 199.0,
+        "Win Rate (%)": 68.34170854271356,
+        "Avg Win": 2.3466009558823573,
+        "Avg Loss": -2.5490955555555583,
+        "Sharpe Ratio": 0.4716070664173107
+      },
+      {
+        "year": 2024,
+        "Start Equity": 1692.1447100000003,
+        "End Equity": 1993.780574999999,
+        "Total Return (%)": 17.825654225518264,
+        "Max Drawdown (%)": -0.809988645918676,
+        "Trades": 218.0,
+        "Win Rate (%)": 67.43119266055045,
+        "Avg Win": 3.7611524489795936,
+        "Avg Loss": -3.538782323943679,
+        "Sharpe Ratio": 0.5659345681640088
+      },
+      {
+        "year": 2025,
+        "Start Equity": 1993.780574999999,
+        "End Equity": 2251.3954699999995,
+        "Total Return (%)": 12.920925112333412,
+        "Max Drawdown (%)": -0.8114972529180839,
+        "Trades": 194.0,
+        "Win Rate (%)": 71.64948453608247,
+        "Avg Win": 3.219398848920871,
+        "Avg Loss": -3.45239172727274,
+        "Sharpe Ratio": 0.5662890302497975
+      }
+    ]
+  },
+  "INFY_3": {
+    "metadata": {
+      "filename": "INFY",
+      "timeframe": 3,
+      "timestamp": "2026-01-27T16:30:52.666095",
+      "total_period_years": 2.9103353867214237,
+      "starting_capital": 1533.55,
+      "ending_capital": 2478.93117928571,
+      "total_return_pct": 61.64658337098303,
+      "cagr_pct": 17.940804924936792,
+      "max_drawdown_pct": -1.7771691886934424
+    },
+    "yearly_performance": [
+      {
+        "year": 2023,
+        "Start Equity": 1533.55,
+        "End Equity": 1737.0378328571435,
+        "Total Return (%)": 13.269070643744485,
+        "Max Drawdown (%)": -1.0812175782372324,
+        "Trades": 362.0,
+        "Win Rate (%)": 69.33701657458563,
+        "Avg Win": 1.7033583266932313,
+        "Avg Loss": -2.018514478764482,
+        "Sharpe Ratio": 0.4559754161892449
+      },
+      {
+        "year": 2024,
+        "Start Equity": 1737.0378328571435,
+        "End Equity": 2153.125182857141,
+        "Total Return (%)": 23.95384499574209,
+        "Max Drawdown (%)": -1.0900077920773255,
+        "Trades": 379.0,
+        "Win Rate (%)": 71.76781002638522,
+        "Avg Win": 2.7961498529411726,
+        "Avg Loss": -3.219302897196273,
+        "Sharpe Ratio": 0.5621563156028027
+      },
+      {
+        "year": 2025,
+        "Start Equity": 2153.125182857141,
+        "End Equity": 2478.93117928571,
+        "Total Return (%)": 15.131772133946846,
+        "Max Drawdown (%)": -1.293350075251879,
+        "Trades": 355.0,
+        "Win Rate (%)": 69.29577464788733,
+        "Avg Win": 2.539966991869915,
+        "Avg Loss": -2.743356730013116,
+        "Sharpe Ratio": 0.5037836805261153
+      }
+    ]
+  },
+  "INFY_1": {
+    "metadata": {
+      "filename": "INFY",
+      "timeframe": 1,
+      "timestamp": "2026-01-27T16:37:10.654348",
+      "total_period_years": 2.9103353867214237,
+      "starting_capital": 1539.0,
+      "ending_capital": 2333.9717442857127,
+      "total_return_pct": 51.65508409913664,
+      "cagr_pct": 15.383311961086111,
+      "max_drawdown_pct": -1.5243707457007158
+    },
+    "yearly_performance": [
+      {
+        "year": 2023,
+        "Start Equity": 1539.0,
+        "End Equity": 1702.2742185714328,
+        "Total Return (%)": 10.609111018286733,
+        "Max Drawdown (%)": -1.5243707457007158,
+        "Trades": 1266.0,
+        "Win Rate (%)": 60.11058451816746,
+        "Avg Win": 0.9218216819973788,
+        "Avg Loss": -1.0658061018387568,
+        "Sharpe Ratio": 0.19520382301020142
+      },
+      {
+        "year": 2024,
+        "Start Equity": 1704.4073085714328,
+        "End Equity": 2037.484751428578,
+        "Total Return (%)": 19.54212711844785,
+        "Max Drawdown (%)": -1.1219401904113104,
+        "Trades": 1253.0,
+        "Win Rate (%)": 65.76217079010375,
+        "Avg Win": 1.3286262621359286,
+        "Avg Loss": -1.7705769397269469,
+        "Sharpe Ratio": 0.2638749570624825
+      },
+      {
+        "year": 2025,
+        "Start Equity": 2037.484751428578,
+        "End Equity": 2333.9717442857127,
+        "Total Return (%)": 14.55161775563,
+        "Max Drawdown (%)": -0.800742752427712,
+        "Trades": 1194.0,
+        "Win Rate (%)": 64.57286432160804,
+        "Avg Win": 1.340788132295716,
+        "Avg Loss": -1.742932995609603,
+        "Sharpe Ratio": 0.23389599712948747
+      }
+    ]
+  }
+}

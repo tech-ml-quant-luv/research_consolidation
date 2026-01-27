@@ -1,0 +1,121 @@
+- Wrap the entire boolean expression in parentheses, and wrap each condition individually — then operator precedence can’t hurt you.
+- Inside the loop, start with exit logic first.
+- Always use .loc with indexing current_bar_high = df.loc[idx,"high"]
+
+START OF LOOP (for each bar i)
+    |
+    ├─> Is position == 0? (Flat)
+    |   |
+    |   YES ──> Check entry_signal == 1?
+    |   |       |
+    |   |       YES ──> Set position = 1
+    |   |       |       Set entry_price = support
+    |   |       |       Record in lists
+    |   |       |       GO TO NEXT BAR
+    |   |       |
+    |   |       NO ──> Check entry_signal_short == 1?
+    |   |               |
+    |   |               YES ──> Set position = -1
+    |   |               |       Set entry_price = resistance
+    |   |               |       Record in lists
+    |   |               |       GO TO NEXT BAR
+    |   |               |
+    |   |               NO ──> Stay flat
+    |   |                       Record position = 0
+    |   |                       GO TO NEXT BAR
+    |   |
+    |   NO ──> Is position == 1? (In Long)
+    |           |
+    |           YES ──> Check LONG EXIT CONDITIONS
+    |           |       |
+    |           |       EXIT? ──> Set position = 0
+    |           |       |         Set entry_price = NaN
+    |           |       |         Calculate PnL
+    |           |       |         Record in lists
+    |           |       |         GO TO NEXT BAR
+    |           |       |
+    |           |       NO EXIT ──> Hold position
+    |           |                   Record position = 1
+    |           |                   GO TO NEXT BAR
+    |           |
+    |           NO ──> Is position == -1? (In Short)
+    |                   |
+    |                   YES ──> Check SHORT EXIT CONDITIONS
+    |                           |
+    |                           EXIT? ──> Set position = 0
+    |                           |         Set entry_price = NaN
+    |                           |         Calculate PnL
+    |                           |         Record in lists
+    |                           |         GO TO NEXT BAR
+    |                           |
+    |                           NO EXIT ──> Hold position
+    |                                       Record position = -1
+    |                                       GO TO NEXT BAR
+    |
+NEXT BAR
+
+
+
+┌─────────────┐
+│   FLAT (0)  │◄──────────────────┐
+└─────────────┘                   │
+       │                          │
+       │ entry_signal=1           │ EXIT
+       ├──────────────►┌──────────┴─────┐
+       │               │   LONG (1)     │
+       │               └────────────────┘
+       │                          ▲
+       │ entry_signal_short=1     │ HOLD
+       ├──────────────►┌──────────┴─────┐
+       │               │   SHORT (-1)   │
+       │               └────────────────┘
+       │                          │
+       └──────────────────────────┘ EXIT
+              HOLD
+
+
+
+ ┌────────────────────┐
+ │   Start / Init     │
+ └─────────┬──────────┘
+           │
+           ▼
+ ┌────────────────────┐
+ │  Read bar t data   │
+ └─────────┬──────────┘
+           │
+           ▼
+ ┌────────────────────┐
+ │ Mark-to-Market PnL │
+ └─────────┬──────────┘
+           │
+           ▼
+ ┌────────────────────┐
+ │  In Position ?     │
+ └───────┬───────┬───┘
+         │YES    │NO
+         ▼       ▼
+ ┌────────────┐  ┌────────────────────┐
+ │ Check EXIT │  │ Check ENTRY signals │
+ │ (STOP/TP)  │  │ (Long / Short)      │
+ └───────┬────┘  └─────────┬──────────┘
+         │                 │
+         ▼                 ▼
+ ┌────────────────────┐  ┌────────────────────┐
+ │ Exit trade if hit  │  │ Enter new trade     │
+ │ Update realized   │  │ Freeze SL / TP      │
+ └─────────┬──────────┘  └─────────┬──────────┘
+           │                         │
+           └──────────┬──────────────┘
+                      ▼
+            ┌────────────────────┐
+            │  Update Equity     │
+            └─────────┬──────────┘
+                      ▼
+            ┌────────────────────┐
+            │ Compute bar return │
+            └─────────┬──────────┘
+                      ▼
+            ┌────────────────────┐
+            │ Move to next bar   │
+            └────────────────────┘

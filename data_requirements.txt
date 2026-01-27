@@ -1,0 +1,219 @@
+### Metrics to Derive for the Streamlit Dashboard
+
+**Return & Performance Metrics**
+
+* Total Return
+* Cumulative Return
+* CAGR
+* Annualized Return
+* Monthly Return
+* Year-on-Year Return
+
+**Risk Metrics**
+
+* Max Drawdown
+* Drawdown Duration
+* Calmar Ratio
+* Volatility (Annualized)
+* Downside Volatility
+* Value at Risk (VaR)
+* Conditional VaR (CVaR)
+
+**Risk-Adjusted Metrics**
+
+* Sharpe Ratio
+* Sortino Ratio
+* Information Ratio (vs equity / benchmark)
+
+**Trade-Level Metrics**
+
+* Total Trades
+* Long Trades Count
+* Short Trades Count
+* Win Rate
+* Loss Rate
+* Average Win
+* Average Loss
+* Win/Loss Ratio
+* Expectancy
+* Profit Factor
+* Average Holding Period
+* Max Consecutive Wins
+* Max Consecutive Losses
+
+**Capital Allocation / Leverage Metrics**
+
+* Average Position Size
+* Max Position Size
+* Exposure Over Time
+* Leverage Utilization
+* Capital Efficiency (Return / Avg Exposure)
+
+**Time-Based Metrics**
+
+* Time-of-Day Returns
+* Time-of-Day Sharpe
+* Time-of-Day Win Rate
+* Day-of-Week Returns
+* Day-of-Week Sharpe
+
+**Benchmark Comparison Metrics**
+
+* Strategy vs Buy-and-Hold Return
+* Alpha
+* Beta
+* Correlation with Benchmark
+* Excess Return
+
+**ML Model Metrics**
+
+* Accuracy
+* Precision (Positive Class)
+* Recall (Positive Class)
+* F1 Score
+* Confusion Matrix Values (TP, FP, TN, FN)
+* ROC Curve
+* AUC
+* Precision–Recall Curve
+* Prediction Coverage (% high-confidence trades)
+
+**Stability & Robustness Metrics**
+
+* Rolling Sharpe
+* Rolling Drawdown
+* Rolling Volatility
+* Performance Consistency Score
+
+**Execution & Cost Metrics**
+
+* Total Transaction Costs
+* Cost per Trade
+* Cost as % of Gross PnL
+
+
+----------------------------------------------------------------------------------
+
+
+
+### Streamlit Dashboard — Items to Show
+
+**Slide 0 – Overview**
+
+* Strategy summary
+* Where ML is used
+* What improved (key outcomes)
+
+**Slide 1 – Capital Allocation / Strategy Results**
+
+* Equity curve: Base vs ML vs Naive (with drawdown)
+* PnL vs Equity vs ML-enhanced equity (time series)
+* Results without leverage
+* Results with leverage
+* Metrics: Sharpe, CAGR, Calmar, Max Drawdown
+* Year-on-year returns
+* Year-on-year Sharpe
+* Strategy vs equity returns (side-by-side bar chart)
+* Candlestick chart with:
+
+  * Support & resistance
+  * RSI
+  * Moving averages
+  * Buy/Sell signals
+* Time-of-day performance / spread analysis
+
+**Slide 2 – ML Model Metrics**
+
+* Accuracy
+* Precision & Recall
+* ROC curve
+* Confusion matrix
+* F1 score
+* ML metrics interpretation
+* Conclusion on ML behavior
+
+**Live Context**
+
+* Live trading view in TradingView
+
+
+-----------------------------------------------------------------------------------------------
+
+
+### DataFrame Columns Required for the Streamlit Dashboard
+
+**Price / Market Data**
+
+* `datetime` (or index)
+* `open`
+* `high`
+* `low`
+* `close`
+* `volume`
+
+**Technical Indicators**
+
+* `support`
+* `resistance`
+* `rsi`
+* `sma_20`
+* `sma_50`
+* `sma_200`
+
+**Signals & Position State**
+
+* `entry_signal`
+* `entry_signal_short`
+* `in_position`
+* `in_position_short`
+
+**Trade Prices**
+
+* `entry_price`
+* `stop_loss_price`
+* `target_price`
+* `entry_price_short`
+* `stop_loss_price_short`
+* `target_price_short`
+
+**PnL – Long**
+
+* `trade_pnl`
+* `trade_pnl_ml`
+* `trade_pnl_na`
+* `exit_reason`
+
+**PnL – Short**
+
+* `trade_pnl_short`
+* `trade_pnl_short_ml`
+* `trade_pnl_short_na`
+* `exit_reason_short`
+
+**Aggregated PnL**
+
+* `trade_pnl_total`
+* `trade_pnl_total_ml`
+* `trade_pnl_total_naive`
+
+**Equity & Cumulative Metrics**
+
+* `cumulative_pnl`
+* `cumulative_pnl_ml`
+* `cumulative_pnl_na`
+* `equity_curve`
+* `equity_curve_ml`
+* `equity_curve_na`
+
+**ML Outputs & Labels**
+
+* `y_pred`
+* `ml_target`
+* `ml_target_short`
+* `holding_period`
+* `holding_period_short`
+
+**Time-Based Analysis**
+
+* `hour`
+* `minute`
+* `date`
